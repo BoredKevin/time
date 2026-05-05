@@ -5,7 +5,7 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.11.1/firebase
 const firebaseConfig = {
     apiKey: "AIzaSyCQtai_K244dbCXDhibtkxxzMk3lqqg3-8",
     authDomain: "cravion.firebaseapp.com",
-    databaseURL: "https://cravion-default-rtdb.firebaseio.com",
+    databaseURL: "https://cravion-default-rtdb.asia-southeast1.firebasedatabase.app/",
     projectId: "cravion",
     storageBucket: "cravion.firebasestorage.app",
     messagingSenderId: "506140778353",
