@@ -1,4 +1,6 @@
-const isRemote = window.location.pathname.endsWith('remote.html');
+const path = window.location.pathname;
+const isRemote = path.endsWith('/remote') || path.endsWith('/remote.html') || path.endsWith('/remote/') || path.endsWith('/remote.html/');
+
 const htmlPath = isRemote ? './components/remote-ui.html' : './components/tv-ui.html';
 const logicPath = isRemote ? './remote-logic.js' : './tv-logic.js';
 
