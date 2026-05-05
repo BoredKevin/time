@@ -3,13 +3,13 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-aut
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyCQtai_K244dbCXDhibtkxxzMk3lqqg3-8",
+    authDomain: "cravion.firebaseapp.com",
+    databaseURL: "https://cravion-default-rtdb.firebaseio.com",
+    projectId: "cravion",
+    storageBucket: "cravion.firebasestorage.app",
+    messagingSenderId: "506140778353",
+    appId: "1:506140778353:web:dc42c40502ba15ccb920d0"
 };
 
 // Initialize Firebase
